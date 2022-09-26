@@ -1,0 +1,24 @@
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.otter-pedia {
+    text-align: center;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.sub-categories {
+    margin: 20 auto;
+    column-count: 4;
+}
+
+main {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#footer p {
+    text-align: center;
+}
