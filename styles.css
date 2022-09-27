@@ -32,8 +32,24 @@ body {
 }
 
 main {
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.Otters {
+    text-align: center;
+}
+
+#image {
+    background-image: url("images/Otter_1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin: 10px auto 0 auto;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-bottom: 4px solid black;
 }
 
 #footer p {
