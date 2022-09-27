@@ -19,9 +19,16 @@ body {
 }
 
 .sub-categories {
-    padding: 0 150px;
-    margin: 20 auto;
-    column-count: 4;
+    text-align: center;
+}
+
+.sub-categories a {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+    line-height: 15px;
 }
 
 main {
