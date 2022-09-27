@@ -1,15 +1,25 @@
 body {
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 10px auto 0 auto;
 }
 
 .otter-pedia {
+    padding: 15px;
     text-align: center;
     background-color: beige;
+    color: rgb(141, 123, 105);
     border-radius: 10px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+}
+
+.otter-pedia p {
+    font-weight: 1000;
+    font-size: 25px;
 }
 
 .sub-categories {
+    padding: 0 150px;
     margin: 20 auto;
     column-count: 4;
 }
